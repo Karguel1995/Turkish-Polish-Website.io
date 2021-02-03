@@ -105,7 +105,7 @@ header img {
 img.flags {
     position: absolute;
     left: 50%;
-    transform: translate(-50%, -50%) scale(1.3);
+    transform: translate(-50%, -50%) scale(1);
     filter: brightness(100%);
 
     width: 100%;
@@ -262,11 +262,11 @@ div.element p {
 
 @media (max-width: 1240px) {
     header {
-        height: 35vh;
+        height: 40vh;
     }
 
     img.flags {
-        transform: translate(-50%, -50%) scale(1.44);
+        transform: translate(-50%, -50%) scale(1.2);
     }
 }
 
@@ -276,11 +276,11 @@ div.element p {
     }
 
     header {
-        height: 31vh;
+        height: 40vh;
     }
 
     img.flags {
-        transform: translate(-50%, -50%) scale(1.50);
+        transform: translate(-50%, -50%) scale(1.4);
     }
 
     nav ul li a span {
