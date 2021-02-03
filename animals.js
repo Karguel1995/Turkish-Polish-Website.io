@@ -42,7 +42,7 @@ plFlags.forEach(function (plFlag, index) {
 })
 
 trFlags.forEach(function (trFlag, index) {
-    let turkishWords = ['Kedi', 'Köpek', 'Kuş', 'Ördek', 'Tavuk', 'Balık', 'Fare', 'Tavşan', 'Domuz', 'At', 'İnek', 'Koyun', 'Ayi', 'Aslan', 'Kaplan', 'Fil', 'Kurbağa', 'Yengeç', 'Kaplumbağa', 'Örümcek', 'Uğur böceği']
+    let turkishWords = ['Kedi', 'Köpek', 'Kuş', 'Ördek', 'Tavuk', 'Balık', 'Fare', 'Tavşan', 'Domuz', 'At', 'İnek', 'Koyun', 'Ayı', 'Aslan', 'Kaplan', 'Fil', 'Kurbağa', 'Yengeç', 'Kaplumbağa', 'Örümcek', 'Uğur böceği']
 
     const trFlagClick = () => {
         texts[index].textContent = turkishWords[index];
